@@ -1,0 +1,150 @@
+ /* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #e58257; 
+}
+
+/* STYLE TEXT */
+
+#fact .link {
+   color: #3466cb;
+   text-decoration: underline;
+   font-size: 15px;
+   width: 20%;
+}
+
+#fact {
+   font-size: 24px;
+}
+
+#title {
+  color: #fff585;
+   font-family: "Oswald", sans-serif;
+   font-size: 40px;
+   z-index: 5;
+   position: absolute;
+   top: 3%;
+   left: 1%;
+}
+
+#yap {
+   color: #fffac7;
+   font-family: "Oswald", sans-serif;
+   font-size: 27.6px;
+   line-height: 35px;
+   z-index: 5;
+   position: absolute;
+   top: 18%;
+   left: 2%;
+   width: 51%;
+}
+
+.green {
+  background-color: #82080e;
+  width: 60%;
+  height: 400px;
+  position: fixed;
+   z-index: -1;
+   position: relative;
+}
+
+#cool {
+   background-color: #cb4343;
+   left: 48.36%;
+     width: 60%;
+     height: 500px;
+}
+
+#set {
+   height: 500px;
+   position: absolute;
+   z-index: -2;
+   top: -100px;
+   left: 50%;
+}
+
+#set3 {
+   height: 500px;
+   position: absolute;
+   z-index: -2;
+   top: 400px;
+   left: -20%;
+}
+
+#set2 {
+   z-index: 7;
+   top: 10px;
+   left: 36%;
+   position: absolute;
+   
+}
+
+#generater {
+   z-index: 8;
+   margin-bottom: 300px;
+   font-family: "Oswald", sans-serif;
+    position: absolute;
+   background-color: #6e070c;
+   border: solid black 5px;
+   padding: 5px;
+   width: 50%;
+   top: 120%;
+   left: 685px;
+   text-align: center;
+   padding-bottom: 10px;
+}
+
+#intro {
+   color: #e09900;
+}
+
+#yap2 {
+   color: #f9d658;
+   font-size: 23px;
+}
+
+#myButton {
+   width: 20%;
+   padding: 4px;
+   font-size: 19px;
+   margin: 20px;
+   margin-bottom: 20px;
+   border: solid black 2px;
+   border-radius: 20px;
+    font-family: "Oswald", sans-serif;
+   color: #ff5900;
+   background-color: #ffcd9e;
+}
+
+#learn {
+   margin-bottom: 100px;
+   font-size: 45px;
+   color: #8a0000;
+   position: relative;
+   left: 15px;
+   top: -10px;
+   font-family: "Oswald", sans-serif;
+   width: 55%;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 700
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* STYLE IMAGES */
+
+/* STYLE NAV BAR */
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
